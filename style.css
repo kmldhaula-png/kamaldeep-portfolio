@@ -377,3 +377,15 @@ body {
 .social-links a:hover {
     text-decoration: underline;
 }
+.img-placeholder {
+    background: transparent; /* Extra white box hatane ke liye */
+    overflow: hidden;
+}
+
+.hero-profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
